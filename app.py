@@ -6,7 +6,38 @@ from plant_recognition import recognize_plant  # Import your plant recognition l
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads/'
-PLANTDATA_FOLDER = 'plantdata/'
+PLANTDATA_FOLDERS = [
+    'plantdata/alovera/',
+    'plantdata/banana/',
+    'plantdata/bilimbi/',
+    'plantdata/cantaloupe/',
+    'plantdata/cassava/',
+    'plantdata/coconut/',
+    'plantdata/corn/',
+    'plantdata/cucumber/',
+    'plantdata/curcuma/',
+    'plantdata/eggplant/',
+    'plantdata/galangal/',
+    'plantdata/ginger/',
+    'plantdata/guava/',
+    'plantdata/kale/',
+    'plantdata/longbeans/',
+    'plantdata/mango/',
+    'plantdata/melon/',
+    'plantdata/orange/',
+    'plantdata/paddy/',
+    'plantdata/papaya/',
+    'plantdata/pepper_chili/',
+    'plantdata/pineapple/',
+    'plantdata/pomelo/',
+    'plantdata/shallot/',
+    'plantdata/soyabean/',
+    'plantdata/spinach/',
+    'plantdata/sweet_potatoes/',
+    'plantdata/waterapple/',
+    'plantdata/watermelon/'
+]
+
 CSV_FILE = 'plants_data.csv'
 
 # Allow only image extensions
